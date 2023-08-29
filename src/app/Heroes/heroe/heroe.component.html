@@ -1,0 +1,31 @@
+<!-- <app-heroe></app-heroe> -->
+
+<h1>Heroe Component</h1>
+
+<dl>
+  <td> nombre </td>
+  <dd> {{ nombre }} </dd>
+
+  <td> edad </td>
+  <dd> {{ edad }} </dd>
+
+  <td> ciudad </td>
+  <dd> {{ ciudad }} </dd>
+
+  <td> funcion </td>
+  <dd> {{ obtenerNombre ()}} </dd>
+
+  <td> mayuscula </td>
+  <dd> {{nombreMayuscula}} </dd>
+
+</dl>
+
+<button (click)="cambiarNombre()">
+  cambiar heroe
+</button>
+<button (click)="cambiarEdad()">
+  cambiar edad
+</button>
+<button (click)="cambiarCiudad()">
+  cambiar ciudad
+</button>
